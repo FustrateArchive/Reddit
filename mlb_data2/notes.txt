@@ -1,0 +1,28 @@
+Valid player image sizes: 37, 68, 200
+
+http://mlb.mlb.com/pubajax/wf/flow/stats.splayer
+	?season=2012						['', 2012]
+	&sort_order='desc'					['asc', 'desc']
+	&sort_column='hr'					['hr', 'avg', 
+	&stat_type=hitting					[hitting, pitching]
+	&page_type=SortablePlayer
+	&game_type='R'						['R', 'S', 'A', 'D', 'L', 'W']	Regular season, Spring training, All-star game, Division series, League champ, World series (can add multiple times)
+	&player_pool=QUALIFIER					[QUALIFIER, ALL]
+	&season_type=ANY					[ANY, SINGLE, ALL]
+	&sport_code='mlb'
+	&league_code='NL'
+	&results=1000
+	&recSP=1
+	&recPP=50
+	&active_sw='Y'						['Y', 'N']			Only active players in all-time
+	&position='3'						0-9, 'D', 'O'			Position # or Designated hitter or Outfield
+
+
+hr|avg|sb|slg|g|ab|r|h|d|t|rbi|bb|so
+
+
+team stat: errors
+
+http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season=&sort_order='desc'&sort_column='avg'&stat_type=hitting&page_type=SortablePlayer&game_type='R'&player_pool=QUALIFIER&season_type=SINGLE&league_code='NL'&sport_code='mlb'&results=1000&recSP=1&recPP=50
+
+http://mlb.mlb.com/pubajax/wf/flow/stats.splayer?season=&sort_order='desc'&sort_column='avg'&stat_type=hitting&page_type=SortablePlayer&game_type='R'&player_pool=QUALIFIER&season_type=SINGLE&active_sw='Y'&league_code='NL'&sport_code='mlb'&results=1000&recSP=1&recPP=50
