@@ -1,5 +1,5 @@
- 
-/* /r/baseball Logo Flair
+ /* /r/baseball Logo Flair
+ WIP; PLEASE DO NOT USE THIS UNTIL THIS MESSAGE IS GONE!
 ------------------------------------------------------------------ */
 
 /* Remove the default styling which has borders and such */
@@ -42,12 +42,14 @@ a[href="/BOS"]:before,
 a[href="/r/Cubs"]:before,
 a[href="/CHI"]:before,
 a[href="/CHC"]:before,
-.flair-cubs {
+.flair-cubs,
+.flair-chc {
     background-position: 0 -84px !important;
     }
 a[href="/r/Reds"]:before,
 a[href="/CIN"]:before,
-.flair-reds {
+.flair-reds,
+.flair-cin {
     background-position: 0 -105px !important
     }
 a[href="/r/WahoosTipi"]:hover:before,
@@ -63,7 +65,8 @@ a[href="/COL"]:before,
 a[href="/r/WhiteSox"]:before,
 a[href="/CHW"]:before,
 a[href="/CWS"]:before,
-.flair-chw {
+.flair-chw,
+.flair-cws {
     background-position: 0 -168px !important
     }
 a[href="/r/MotorCityKitties"]:before,
@@ -82,7 +85,8 @@ a[href="/HOU"]:before,
 a[href="/r/KCRoyals"]:before,
 a[href="/KCR"]:before,
 a[href="/KC"]:before,
-.flair-kcr {
+.flair-kcr,
+.flair-kc {
     background-position: 0 -252px !important
     }
 a[href="/r/AngelsBaseball"]:before,
@@ -132,7 +136,8 @@ a[href="/PIT"]:before,
     }
 a[href="/SDP"]:before,
 a[href="/SD"]:before,
-.flair-sdp {
+.flair-sdp,
+.flair-sd {
     background-position: 0 -441px !important
     }
 a[href="/r/Mariners"]:before,
@@ -143,7 +148,8 @@ a[href="/SEA"]:before,
 a[href="/r/SFGiants"]:before,
 a[href="/SFG"]:before,
 a[href="/SF"]:before,
-.flair-sfg {
+.flair-sfg,
+.flair-sf {
     background-position: 0 -483px !important
     }
 a[href="/r/Cardinals"]:before,
@@ -154,7 +160,8 @@ a[href="/STL"]:before,
 a[href="/r/TampaBayRays"]:before,
 a[href="/TBR"]:before,
 a[href="/TB"]:before,
-.flair-tbr {
+.flair-tbr,
+.flair-tb {
     background-position: 0 -525px !important
     }
 a[href="/r/TexasRangers"]:before,
@@ -213,7 +220,8 @@ a[href="/PHI1"]:before,
     }
 a[href="/SFG1"]:before,
 a[href="/SF1"]:before,
-.flair-sfg-1 {
+.flair-sfg-1,
+.flair-sf-1 {
     background-position: 0 -840px !important
     }
 a[href="/MON"]:before,
@@ -223,12 +231,14 @@ a[href="/MON"]:before,
 a[href="/r/Padres"]:before,
 a[href="/SDP1"]:before,
 a[href="/SD1"]:before,
-.flair-sdp-1 {
+.flair-sdp-1,
+.flair-sd-1 {
     background-position: 0 -903px !important
     }
 a[href="/SDP2"]:before,
 a[href="/SD2"]:before,
-.flair-sdp-2 {
+.flair-sdp-2,
+.flair-sd-2 {
     background-position: 0 -882px !important
     }
 a[href="/HOU1"]:before,
@@ -273,7 +283,8 @@ a[href="/LAA1"]:before,
     }
 a[href="/TBR1"]:before,
 a[href="/TB1"]:before,
-.flair-tbr-1 {
+.flair-tbr-1,
+.flair-tb-1 {
     background-position: 0 -1134px !important
     }
 a[href="/NYM1"]:before,
@@ -291,7 +302,8 @@ a[href="/BAL2"]:before,
     }
 a[href="/SDP3"]:before,
 a[href="/SD3"]:before,
-.flair-sdp-3 {
+.flair-sdp-3,
+.flair-sd-3 {
     background-position: 0 -1218px !important
     }
 a[href="/r/letsgofish"]:before,
@@ -306,7 +318,8 @@ a[href="/CLE1"]:before,
     }
 a[href="/CHI1"]:before,
 a[href="/CHC1"]:before,
-.flair-chi-1 {
+.flair-chi-1,
+.flair-chc-1 {
     background-position: 0 -1281px !important
     }
 a[href="/r/TorontoBlueJays"]:before,
@@ -341,7 +354,8 @@ a[href="/LAD1"]:before,
     }
 a[href="/TBR2"]:before,
 a[href="/TB2"]:before,
-.flair-tbr-2 {
+.flair-tbr-2,
+.flair-tb-2 {
     background-position: 0 -1449px !important
     }
 a[href="/STL1"]:before,
@@ -354,7 +368,8 @@ a[href="/SEA2"]:before,
     }
 a[href="/KCR1"]:before,
 a[href="/KC1"]:before,
-.flair-kcr-1 {
+.flair-kcr-1,
+.flair-kc-1 {
     background-position: 0 -1512px !important
     }
 a[href="/r/Astros"]:before,
@@ -364,7 +379,8 @@ a[href="/HOU2"]:before,
     }
 a[href="/SFG2"]:before,
 a[href="/SF2"]:before,
-.flair-sfg-2 {
+.flair-sfg-2,
+.flair-sf-2 {
     background-position: 0 -1554px !important
     }
 a[href="/WAS2"]:before,
@@ -388,20 +404,20 @@ a[href="/MLB"]:before,
     background-position: 0 -1659px !important
     }
 
-/* Team logos for use in comments */
+/* Team logos for use in comments - The second rule on a line is deprecated! Don't use it! */
 a[href="/ARI"]:before,
 a[href="/ATL"]:before,
 a[href="/BAL"]:before,
 a[href="/BOS"]:before,
-a[href="/CHI"]:before,
+a[href="/CHC"]:before, a[href="/CHI"]:before,
 a[href="/CIN"]:before,
 a[href="/CLE"]:before,
 a[href="/COL"]:before,
-a[href="/CHW"]:before,
+a[href="/CWS"]:before, a[href="/CHW"]:before,
 a[href="/DET"]:before,
 a[href="/FLA"]:before,
 a[href="/HOU"]:before,
-a[href="/KCR"]:before,
+a[href="/KC"]:before, a[href="/KCR"]:before,
 a[href="/LAA"]:before,
 a[href="/LAD"]:before,
 a[href="/MIL"]:before,
@@ -411,11 +427,11 @@ a[href="/NYY"]:before,
 a[href="/OAK"]:before,
 a[href="/PHI"]:before,
 a[href="/PIT"]:before,
-a[href="/SDP"]:before,
+a[href="/SD"]:before, a[href="/SDP"]:before,
 a[href="/SEA"]:before,
-a[href="/SFG"]:before,
+a[href="/SF"]:before, a[href="/SFG"]:before,
 a[href="/STL"]:before,
-a[href="/TBR"]:before,
+a[href="/TB"]:before, a[href="/TBR"]:before,
 a[href="/TEX"]:before,
 a[href="/TOR"]:before,
 a[href="/WAS"]:before,
@@ -429,10 +445,10 @@ a[href="/SWB"]:before,
 a[href="/WAS1"]:before,
 a[href="/ATL2"]:before,
 a[href="/PHI1"]:before,
-a[href="/SFG1"]:before,
+a[href="/SF1"]:before, a[href="/SFG1"]:before,
 a[href="/MON"]:before,
-a[href="/SDP1"]:before,
-a[href="/SDP2"]:before,
+a[href="/SD1"]:before, a[href="/SDP1"]:before,
+a[href="/SD2"]:before, a[href="/SDP2"]:before,
 a[href="/HOU1"]:before,
 a[href="/SEA1"]:before,
 a[href="/OAK1"]:before,
@@ -443,14 +459,14 @@ a[href="/ARI1"]:before,
 a[href="/BOS1"]:before,
 a[href="/DUR"]:before,
 a[href="/LAA1"]:before,
-a[href="/TBR1"]:before,
+a[href="/TB1"]:before, a[href="/TBR1"]:before,
 a[href="/NYM1"]:before,
 a[href="/LID"]:before,
 a[href="/BAL2"]:before,
-a[href="/SDP3"]:before,
+a[href="/SD3"]:before, a[href="/SDP3"]:before,
 a[href="/MIA"]:before,
 a[href="/CLE1"]:before,
-a[href="/CHI1"]:before,
+a[href="/CHC1"]:before, a[href="/CHI1"]:before,
 a[href="/TOR2"]:before,
 a[href="/MIN2"]:before,
 a[href="/HOU2"]:before,
@@ -458,12 +474,12 @@ a[href="/DET1"]:before,
 a[href="/FLA1"]:before,
 a[href="/ARI2"]:before,
 a[href="/LAD1"]:before,
-a[href="/TBR2"]:before,
+a[href="/TB2"]:before, a[href="/TBR2"]:before,
 a[href="/STL1"]:before,
 a[href="/SEA2"]:before,
-a[href="/KCR1"]:before,
+a[href="/KC1"]:before, a[href="/KCR1"]:before,
 a[href="/HOU2"]:before,
-a[href="/SFG2"]:before,
+a[href="/SF2"]:before, a[href="/SFG2"]:before,
 a[href="/WAS2"]:before,
 a[href="/TEX2"]:before,
 a[href="/LAD2"]:before,
