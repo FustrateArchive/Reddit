@@ -1,1 +1,513 @@
  
+/* /r/baseball Logo Flair
+------------------------------------------------------------------ */
+
+/* Remove the default styling which has borders and such */
+.flair {
+    padding: 0;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(%%flair-logos%%);
+    background-position: -9999px -9999px;
+    vertical-align: middle;
+    text-indent: -9999px;
+    }
+.flairsample-left {
+    font-size: 0px !important;
+    }
+.flairsample-left a {
+    font-size: 10px !important;
+    }
+a[href="/ARI"]:before,
+.flair-ari {
+    background-position: 0 -21px !important;
+    }
+a[href="/r/Braves"]:before,
+a[href="/ATL"]:before,
+.flair-atl {
+    background-position: 0 -42px !important
+    }
+a[href="/BAL"]:before,
+.flair-bal {
+    background-position: 0 -609px !important
+    }
+a[href="/r/RedSox"]:before,
+a[href="/BOS"]:before,
+.flair-bos {
+    background-position: 0 -63px !important
+    }
+a[href="/r/Cubs"]:before,
+a[href="/CHI"]:before,
+a[href="/CHC"]:before,
+.flair-cubs {
+    background-position: 0 -84px !important;
+    }
+a[href="/r/Reds"]:before,
+a[href="/CIN"]:before,
+.flair-reds {
+    background-position: 0 -105px !important
+    }
+a[href="/r/WahoosTipi"]:hover:before,
+a[href="/CLE"]:before,
+.flair-cle {
+    background-position: 0 -126px !important;
+    }
+a[href="/r/ColoradoRockies"]:before,
+a[href="/COL"]:before,
+.flair-col {
+    background-position: 0 -147px !important
+    }
+a[href="/r/WhiteSox"]:before,
+a[href="/CHW"]:before,
+a[href="/CWS"]:before,
+.flair-chw {
+    background-position: 0 -168px !important
+    }
+a[href="/r/MotorCityKitties"]:before,
+a[href="/DET"]:before,
+.flair-det {
+    background-position: 0 -189px !important
+    }
+a[href="/FLA"]:before,
+.flair-fla {
+    background-position: 0 -210px !important
+    }
+a[href="/HOU"]:before,
+.flair-hou {
+    background-position: 0 -231px !important;
+    }
+a[href="/r/KCRoyals"]:before,
+a[href="/KCR"]:before,
+a[href="/KC"]:before,
+.flair-kcr {
+    background-position: 0 -252px !important
+    }
+a[href="/r/AngelsBaseball"]:before,
+a[href="/LAA"]:before,
+.flair-laa {
+    background-position: 0 0 !important
+    }
+a[href="/r/Dodgers"]:before,
+a[href="/LAD"]:before,
+.flair-lad {
+    background-position: 0 -273px !important
+    }
+a[href="/r/Brewers"]:before,
+a[href="/MIL"]:before,
+.flair-mil {
+    background-position: 0 -294px !important
+    }
+a[href="/r/MinnesotaTwins"]:before,
+a[href="/MIN"]:before,
+.flair-min {
+    background-position: 0 -315px !important;
+    }
+a[href="/r/NewYorkMets"]:before,
+a[href="/NYM"]:before,
+.flair-nym {
+    background-position: 0 -336px !important;
+    }
+a[href="/r/Yankees"]:before,
+a[href="/NYY"]:before,
+.flair-nyy {
+    background-position: 0 -357px !important
+    }
+a[href="/r/oaklandathletics"]:before,
+a[href="/OAK"]:before,
+.flair-oak {
+    background-position: 0 -378px !important
+    }
+a[href="/r/Phillies"]:before,
+a[href="/PHI"]:before,
+.flair-phi {
+    background-position: 0 -399px !important
+    }
+a[href="/r/Buccos"]:before,
+a[href="/PIT"]:before,
+.flair-pit {
+    background-position: 0 -420px !important
+    }
+a[href="/SDP"]:before,
+a[href="/SD"]:before,
+.flair-sdp {
+    background-position: 0 -441px !important
+    }
+a[href="/r/Mariners"]:before,
+a[href="/SEA"]:before,
+.flair-sea {
+    background-position: 0 -462px !important
+    }
+a[href="/r/SFGiants"]:before,
+a[href="/SFG"]:before,
+a[href="/SF"]:before,
+.flair-sfg {
+    background-position: 0 -483px !important
+    }
+a[href="/r/Cardinals"]:before,
+a[href="/STL"]:before,
+.flair-stl {
+    background-position: 0 -504px !important
+    }
+a[href="/r/TampaBayRays"]:before,
+a[href="/TBR"]:before,
+a[href="/TB"]:before,
+.flair-tbr {
+    background-position: 0 -525px !important
+    }
+a[href="/r/TexasRangers"]:before,
+a[href="/TEX"]:before,
+.flair-tex {
+    background-position: 0 -546px !important
+    }
+a[href="/TOR"]:before,
+.flair-tor {
+    background-position: 0 -567px !important
+    }
+a[href="/WAS"]:before,
+.flair-was {
+    background-position: 0 -588px !important
+    }
+a[href="/LAS"]:before,
+.flair-las {
+    background-position: 0 -630px !important
+    }
+a[href="/MIL1"]:before,
+.flair-mil-1 {
+    background-position: 0 -651px !important
+    }
+a[href="/TOR1"]:before,
+.flair-tor-1 {
+    background-position: 0 -672px !important
+    }
+a[href="/BAL1"]:before,
+.flair-bal-1 {
+    background-position: 0 -693px !important
+    }
+a[href="/ATL1"]:before,
+.flair-atl-1 {
+    background-position: 0 -714px !important
+    }
+a[href="/MIN1"]:before,
+.flair-min-1 {
+    background-position: 0 -735px !important
+    }
+a[href="/SWB"]:before,
+.flair-swb {
+    background-position: 0 -756px !important
+    }
+a[href="/r/Nationals"]:before,
+a[href="/WAS1"]:before,
+.flair-was-1 {
+    background-position: 0 -777px !important;
+    }
+a[href="/ATL2"]:before,
+.flair-atl-2 {
+    background-position: 0 -798px !important
+    }
+a[href="/PHI1"]:before,
+.flair-phi-1 {
+    background-position: 0 -819px !important
+    }
+a[href="/SFG1"]:before,
+a[href="/SF1"]:before,
+.flair-sfg-1 {
+    background-position: 0 -840px !important
+    }
+a[href="/MON"]:before,
+.flair-mon {
+    background-position: 0 -861px !important
+    }
+a[href="/r/Padres"]:before,
+a[href="/SDP1"]:before,
+a[href="/SD1"]:before,
+.flair-sdp-1 {
+    background-position: 0 -903px !important
+    }
+a[href="/SDP2"]:before,
+a[href="/SD2"]:before,
+.flair-sdp-2 {
+    background-position: 0 -882px !important
+    }
+a[href="/HOU1"]:before,
+.flair-hou-1 {
+    background-position: 0 -924px !important
+    }
+a[href="/SEA1"]:before,
+.flair-sea-1 {
+    background-position: 0 -945px !important
+    }
+a[href="/OAK1"]:before,
+.flair-oak-1 {
+    background-position: 0 -966px !important
+    }
+a[href="/TEX1"]:before,
+.flair-tex-1 {
+    background-position: 0 -987px !important
+    }
+a[href="/NYY1"]:before,
+.flair-nyy-1 {
+    background-position: 0 -1008px !important
+    }
+a[href="/HAN"]:before,
+.flair-han {
+    background-position: 0 -1029px !important
+    }
+a[href="/ARI1"]:before,
+.flair-ari-1 {
+    background-position: 0 -1050px !important
+    }
+a[href="/BOS1"]:before,
+.flair-bos-1 {
+    background-position: 0 -1071px !important
+    }
+a[href="/DUR"]:before,
+.flair-dur {
+    background-position: 0 -1092px !important
+    }
+a[href="/LAA1"]:before,
+.flair-laa-1 {
+    background-position: 0 -1113px !important
+    }
+a[href="/TBR1"]:before,
+a[href="/TB1"]:before,
+.flair-tbr-1 {
+    background-position: 0 -1134px !important
+    }
+a[href="/NYM1"]:before,
+.flair-nym-1 {
+    background-position: 0 -1155px !important
+    }
+a[href="/LID"]:before,
+.flair-lid {
+    background-position: 0 -1176px !important
+    }
+a[href="/r/Orioles"]:before,
+a[href="/BAL2"]:before,
+.flair-bal-2 {
+    background-position: 0 -1197px !important
+    }
+a[href="/SDP3"]:before,
+a[href="/SD3"]:before,
+.flair-sdp-3 {
+    background-position: 0 -1218px !important
+    }
+a[href="/r/letsgofish"]:before,
+a[href="/MIA"]:before,
+.flair-mia {
+    background-position: 0 -1239px !important;
+    }
+a[href="/r/WahoosTipi"]:before,
+a[href="/CLE1"]:before,
+.flair-cle-1 {
+    background-position: 0 -1260px !important;
+    }
+a[href="/CHI1"]:before,
+a[href="/CHC1"]:before,
+.flair-chi-1 {
+    background-position: 0 -1281px !important
+    }
+a[href="/r/TorontoBlueJays"]:before,
+a[href="/TOR2"]:before,
+.flair-tor-2 {
+    background-position: 0 -1302px !important
+    }
+a[href="/MIN2"]:before,
+.flair-min-2 {
+    background-position: 0 -1323px !important
+    }
+a[href="/HOU2"]:before,
+.flair-hou-2 {
+    background-position: 0 -1344px !important
+    }
+a[href="/DET1"]:before,
+.flair-det-1 {
+    background-position: 0 -1365px !important
+    }
+a[href="/FLA1"]:before,
+.flair-fla-1 {
+    background-position: 0 -1386px !important
+    }
+a[href="/r/azdiamondbacks"]:before,
+a[href="/ARI2"]:before,
+.flair-ari-2 {
+    background-position: 0 -1407px !important
+    }
+a[href="/LAD1"]:before,
+.flair-lad-1 {
+    background-position: 0 -1428px !important
+    }
+a[href="/TBR2"]:before,
+a[href="/TB2"]:before,
+.flair-tbr-2 {
+    background-position: 0 -1449px !important
+    }
+a[href="/STL1"]:before,
+.flair-stl-1 {
+    background-position: 0 -1470px !important
+    }
+a[href="/SEA2"]:before,
+.flair-sea-2 {
+    background-position: 0 -1491px !important
+    }
+a[href="/KCR1"]:before,
+a[href="/KC1"]:before,
+.flair-kcr-1 {
+    background-position: 0 -1512px !important
+    }
+a[href="/r/Astros"]:before,
+a[href="/HOU2"]:before,
+.flair-hou-2 {
+    background-position: 0 -1533px !important
+    }
+a[href="/SFG2"]:before,
+a[href="/SF2"]:before,
+.flair-sfg-2 {
+    background-position: 0 -1554px !important
+    }
+a[href="/WAS2"]:before,
+.flair-was-2 {
+    background-position: 0 -1575px !important
+    }
+a[href="/TEX2"]:before,
+.flair-tex-2 {
+    background-position: 0 -1596px !important
+    }
+a[href="/LAD2"]:before,
+.flair-lad-2 {
+    background-position: 0 -1617px !important
+    }
+a[href="/BK"]:before,
+.flair-bk {
+    background-position: 0 -1638px !important
+    }
+a[href="/MLB"]:before,
+.flair-mlb {
+    background-position: 0 -1659px !important
+    }
+
+/* Team logos for use in comments */
+a[href="/ARI"]:before,
+a[href="/ATL"]:before,
+a[href="/BAL"]:before,
+a[href="/BOS"]:before,
+a[href="/CHI"]:before,
+a[href="/CIN"]:before,
+a[href="/CLE"]:before,
+a[href="/COL"]:before,
+a[href="/CHW"]:before,
+a[href="/DET"]:before,
+a[href="/FLA"]:before,
+a[href="/HOU"]:before,
+a[href="/KCR"]:before,
+a[href="/LAA"]:before,
+a[href="/LAD"]:before,
+a[href="/MIL"]:before,
+a[href="/MIN"]:before,
+a[href="/NYM"]:before,
+a[href="/NYY"]:before,
+a[href="/OAK"]:before,
+a[href="/PHI"]:before,
+a[href="/PIT"]:before,
+a[href="/SDP"]:before,
+a[href="/SEA"]:before,
+a[href="/SFG"]:before,
+a[href="/STL"]:before,
+a[href="/TBR"]:before,
+a[href="/TEX"]:before,
+a[href="/TOR"]:before,
+a[href="/WAS"]:before,
+a[href="/LAS"]:before,
+a[href="/MIL1"]:before,
+a[href="/TOR1"]:before,
+a[href="/BAL1"]:before,
+a[href="/ATL1"]:before,
+a[href="/MIN1"]:before,
+a[href="/SWB"]:before,
+a[href="/WAS1"]:before,
+a[href="/ATL2"]:before,
+a[href="/PHI1"]:before,
+a[href="/SFG1"]:before,
+a[href="/MON"]:before,
+a[href="/SDP1"]:before,
+a[href="/SDP2"]:before,
+a[href="/HOU1"]:before,
+a[href="/SEA1"]:before,
+a[href="/OAK1"]:before,
+a[href="/TEX1"]:before,
+a[href="/NYY1"]:before,
+a[href="/HAN"]:before,
+a[href="/ARI1"]:before,
+a[href="/BOS1"]:before,
+a[href="/DUR"]:before,
+a[href="/LAA1"]:before,
+a[href="/TBR1"]:before,
+a[href="/NYM1"]:before,
+a[href="/LID"]:before,
+a[href="/BAL2"]:before,
+a[href="/SDP3"]:before,
+a[href="/MIA"]:before,
+a[href="/CLE1"]:before,
+a[href="/CHI1"]:before,
+a[href="/TOR2"]:before,
+a[href="/MIN2"]:before,
+a[href="/HOU2"]:before,
+a[href="/DET1"]:before,
+a[href="/FLA1"]:before,
+a[href="/ARI2"]:before,
+a[href="/LAD1"]:before,
+a[href="/TBR2"]:before,
+a[href="/STL1"]:before,
+a[href="/SEA2"]:before,
+a[href="/KCR1"]:before,
+a[href="/HOU2"]:before,
+a[href="/SFG2"]:before,
+a[href="/WAS2"]:before,
+a[href="/TEX2"]:before,
+a[href="/LAD2"]:before,
+a[href="/BK"]:before,
+a[href="/MLB"]:before,
+
+a[href="/r/AngelsBaseball"]:before,
+a[href="/r/Astros"]:before,
+a[href="/r/azdiamondbacks"]:before,
+a[href="/r/Braves"]:before,
+a[href="/r/Brewers"]:before,
+a[href="/r/Buccos"]:before,
+a[href="/r/Cardinals"]:before,
+a[href="/r/ColoradoRockies"]:before,
+a[href="/r/Cubs"]:before,
+a[href="/r/Dodgers"]:before,
+a[href="/r/KCRoyals"]:before,
+a[href="/r/letsgofish"]:before,
+a[href="/r/Mariners"]:before,
+a[href="/r/MinnesotaTwins"]:before,
+a[href="/r/MotorCityKitties"]:before,
+a[href="/r/Nationals"]:before,
+a[href="/r/NewYorkMets"]:before,
+a[href="/r/oaklandathletics"]:before,
+a[href="/r/Orioles"]:before,
+a[href="/r/Padres"]:before,
+a[href="/r/Phillies"]:before,
+a[href="/r/Reds"]:before,
+a[href="/r/RedSox"]:before,
+a[href="/r/SFGiants"]:before,
+a[href="/r/TampaBayRays"]:before,
+a[href="/r/TexasRangers"]:before,
+a[href="/r/TorontoBlueJays"]:before,
+a[href="/r/WahoosTipi"]:before,
+a[href="/r/WhiteSox"]:before,
+a[href="/r/Yankees"]:before {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    background-image: url(%%flair-logos%%);
+    background-position: -9999px -9999px;
+    vertical-align: middle;
+    margin-right: 3px;
+    content: "";
+    }
